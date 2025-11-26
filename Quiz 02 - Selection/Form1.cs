@@ -19,7 +19,7 @@ namespace Quiz_02___Selection
 
         private void bonusButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Change the text in this message box to answer the question:  Provide an example to explain why you would choose 'if..else if' instead of repeated 'if' statements");
+            MessageBox.Show("Change the text in this message box to answer the question:  Provi de an example to explain why you would choose 'if..else if' instead of repeated 'if' statements");
         }
     }
 }
