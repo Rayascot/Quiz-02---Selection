@@ -75,7 +75,7 @@ namespace Quiz_02___Selection
                         q3OutputLabel.Text = "Fail";
                         break;
                     case < 80:
-                        q3OutputLabel.Text = "You Passed";
+                        q3OutputLabel.Text = "You Pas sed";
                         break;
                     case > 79:
                         q3OutputLabel.Text = "Excellent Effort!";
