@@ -64,6 +64,7 @@
             label20 = new Label();
             label18 = new Label();
             bonusButton = new Button();
+            q2Outputlabel2 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -73,7 +74,7 @@
             label1.ForeColor = SystemColors.Control;
             label1.Location = new Point(12, 9);
             label1.Name = "label1";
-            label1.Size = new Size(359, 37);
+            label1.Size = new Size(219, 23);
             label1.TabIndex = 0;
             label1.Text = "Quiz 02 - Selection";
             // 
@@ -84,7 +85,7 @@
             label2.ForeColor = SystemColors.Control;
             label2.Location = new Point(12, 74);
             label2.Name = "label2";
-            label2.Size = new Size(449, 37);
+            label2.Size = new Size(274, 23);
             label2.TabIndex = 1;
             label2.Text = "Q01 Simple If  - 2 marks";
             // 
@@ -130,7 +131,7 @@
             // 
             q1TextBox.Location = new Point(282, 324);
             q1TextBox.Name = "q1TextBox";
-            q1TextBox.Size = new Size(200, 36);
+            q1TextBox.Size = new Size(200, 25);
             q1TextBox.TabIndex = 6;
             // 
             // q1Button
@@ -141,6 +142,7 @@
             q1Button.TabIndex = 7;
             q1Button.Text = "Code Me!";
             q1Button.UseVisualStyleBackColor = true;
+            q1Button.Click += q1Button_Click;
             // 
             // q1OutputLabel
             // 
@@ -159,7 +161,7 @@
             label7.ForeColor = SystemColors.Control;
             label7.Location = new Point(23, 568);
             label7.Name = "label7";
-            label7.Size = new Size(485, 37);
+            label7.Size = new Size(296, 23);
             label7.TabIndex = 9;
             label7.Text = "Q02 - If... Else - 3 marks";
             // 
@@ -185,27 +187,28 @@
             // 
             // q2Button
             // 
-            q2Button.Location = new Point(533, 919);
+            q2Button.Location = new Point(493, 765);
             q2Button.Name = "q2Button";
             q2Button.Size = new Size(150, 46);
             q2Button.TabIndex = 14;
             q2Button.Text = "Code Me!";
             q2Button.UseVisualStyleBackColor = true;
+            q2Button.Click += q2Button_Click;
             // 
             // q2TextBox
             // 
-            q2TextBox.Location = new Point(271, 925);
+            q2TextBox.Location = new Point(272, 776);
             q2TextBox.Name = "q2TextBox";
-            q2TextBox.Size = new Size(200, 36);
+            q2TextBox.Size = new Size(200, 25);
             q2TextBox.TabIndex = 13;
             // 
             // label10
             // 
             label10.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label10.ForeColor = SystemColors.Control;
-            label10.Location = new Point(12, 888);
+            label10.Location = new Point(12, 751);
             label10.Name = "label10";
-            label10.Size = new Size(282, 199);
+            label10.Size = new Size(282, 77);
             label10.TabIndex = 12;
             label10.Text = "Do you prefer rock and roll (enter r) or country (enter c) music?";
             // 
@@ -213,7 +216,7 @@
             // 
             label11.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label11.ForeColor = SystemColors.Control;
-            label11.Location = new Point(1, 842);
+            label11.Location = new Point(12, 729);
             label11.Name = "label11";
             label11.Size = new Size(769, 46);
             label11.TabIndex = 11;
@@ -226,7 +229,7 @@
             label9.ForeColor = SystemColors.Control;
             label9.Location = new Point(807, 9);
             label9.Name = "label9";
-            label9.Size = new Size(611, 37);
+            label9.Size = new Size(373, 23);
             label9.TabIndex = 16;
             label9.Text = "Q03 - Multiple Decisions- 5 marks";
             // 
@@ -255,9 +258,9 @@
             q3OutputLabel.BorderStyle = BorderStyle.FixedSingle;
             q3OutputLabel.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             q3OutputLabel.ForeColor = SystemColors.Control;
-            q3OutputLabel.Location = new Point(817, 471);
+            q3OutputLabel.Location = new Point(886, 471);
             q3OutputLabel.Name = "q3OutputLabel";
-            q3OutputLabel.Size = new Size(913, 70);
+            q3OutputLabel.Size = new Size(940, 70);
             q3OutputLabel.TabIndex = 22;
             // 
             // q3Button
@@ -268,12 +271,13 @@
             q3Button.TabIndex = 21;
             q3Button.Text = "Code Me!";
             q3Button.UseVisualStyleBackColor = true;
+            q3Button.Click += q3Button_Click;
             // 
             // q3TextBox
             // 
             q3TextBox.Location = new Point(1078, 390);
             q3TextBox.Name = "q3TextBox";
-            q3TextBox.Size = new Size(200, 36);
+            q3TextBox.Size = new Size(200, 25);
             q3TextBox.TabIndex = 20;
             // 
             // label15
@@ -331,7 +335,7 @@
             q4OutputLabel.BorderStyle = BorderStyle.FixedSingle;
             q4OutputLabel.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             q4OutputLabel.ForeColor = SystemColors.Control;
-            q4OutputLabel.Location = new Point(833, 941);
+            q4OutputLabel.Location = new Point(829, 925);
             q4OutputLabel.Name = "q4OutputLabel";
             q4OutputLabel.Size = new Size(913, 70);
             q4OutputLabel.TabIndex = 29;
@@ -345,12 +349,13 @@
             q4Button.TabIndex = 28;
             q4Button.Text = "Code Me!";
             q4Button.UseVisualStyleBackColor = true;
+            q4Button.Click += q4Button_Click;
             // 
             // q4TempTextBox
             // 
             q4TempTextBox.Location = new Point(1293, 761);
             q4TempTextBox.Name = "q4TempTextBox";
-            q4TempTextBox.Size = new Size(200, 36);
+            q4TempTextBox.Size = new Size(200, 25);
             q4TempTextBox.TabIndex = 27;
             // 
             // label19
@@ -367,7 +372,7 @@
             // 
             q4CoatTextBox.Location = new Point(1293, 858);
             q4CoatTextBox.Name = "q4CoatTextBox";
-            q4CoatTextBox.Size = new Size(200, 36);
+            q4CoatTextBox.Size = new Size(200, 25);
             q4CoatTextBox.TabIndex = 32;
             // 
             // label20
@@ -384,7 +389,7 @@
             // 
             label18.Font = new Font("Consolas", 12F, FontStyle.Italic, GraphicsUnit.Point);
             label18.ForeColor = Color.FromArgb(255, 255, 128);
-            label18.Location = new Point(817, 1047);
+            label18.Location = new Point(817, 1011);
             label18.Name = "label18";
             label18.Size = new Size(999, 48);
             label18.TabIndex = 33;
@@ -400,12 +405,22 @@
             bonusButton.UseVisualStyleBackColor = true;
             bonusButton.Click += bonusButton_Click;
             // 
+            // q2Outputlabel2
+            // 
+            q2Outputlabel2.ForeColor = SystemColors.ButtonHighlight;
+            q2Outputlabel2.Location = new Point(12, 828);
+            q2Outputlabel2.Name = "q2Outputlabel2";
+            q2Outputlabel2.Size = new Size(667, 90);
+            q2Outputlabel2.TabIndex = 35;
+            q2Outputlabel2.TextAlign = ContentAlignment.TopCenter;
+            // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(13F, 28F);
+            AutoScaleDimensions = new SizeF(8F, 18F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.MidnightBlue;
-            ClientSize = new Size(1818, 1264);
+            ClientSize = new Size(1838, 1055);
+            Controls.Add(q2Outputlabel2);
             Controls.Add(bonusButton);
             Controls.Add(label18);
             Controls.Add(q4CoatTextBox);
@@ -486,5 +501,6 @@
         private Label label20;
         private Label label18;
         private Button bonusButton;
+        private Label q2Outputlabel2;
     }
 }
